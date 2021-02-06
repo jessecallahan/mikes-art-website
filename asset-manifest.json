@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mikes-art-website/static/css/main.002504d4.chunk.css",
-    "main.js": "/mikes-art-website/static/js/main.80256d83.chunk.js",
-    "main.js.map": "/mikes-art-website/static/js/main.80256d83.chunk.js.map",
+    "main.js": "/mikes-art-website/static/js/main.bb87ee0c.chunk.js",
+    "main.js.map": "/mikes-art-website/static/js/main.bb87ee0c.chunk.js.map",
     "runtime-main.js": "/mikes-art-website/static/js/runtime-main.b224d7c8.js",
     "runtime-main.js.map": "/mikes-art-website/static/js/runtime-main.b224d7c8.js.map",
     "static/css/2.150d169a.chunk.css": "/mikes-art-website/static/css/2.150d169a.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.37b2f582.chunk.js",
     "static/css/main.002504d4.chunk.css",
-    "static/js/main.80256d83.chunk.js"
+    "static/js/main.bb87ee0c.chunk.js"
   ]
 }
