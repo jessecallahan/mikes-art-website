@@ -14,17 +14,19 @@ code {
 
 img {
   object-fit: cover;
+  object-position: 00% 00%;
 }
 
 .bio-image{
   float: right;
   height:350px;
   width: auto;
+  margin: 10px;
   
 }
 
 .vertical-center {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
