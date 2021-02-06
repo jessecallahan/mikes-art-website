@@ -6,7 +6,7 @@ export default function Bio() {
   return (
     <Card style={{ width: '60rem', height: 'auto' }} border="info" >
       <Card.Body>
-        <Card.Title>The life of Michael Callahan</Card.Title>
+        <Card.Title><a href='https://soundcloud.com/the-standing-waves' target="_blank" rel="noreferrer">MUSIC LINKS</a></Card.Title>
         <Card.Text>
           <img className="bio-image" alt="self potrait" src={Img}></img>
           <p>My first art gig came during a hot stay in Puerto Vallarta, Mexico in the 1970's. The owners of a resturant that I frequented  offered me free beverages as long as I would sit on their patio and draw. At the time I was experimenting with a rapidograh ink pen to sachieve fine detail in my drawings. The owners believed that having a young "art student" on the premises was good for business. I never saw much traffic in the place but they had great coffee and fresh juices. Later the couple began feeding me breakfast and lunches. The commercial facade ended and I became the couple's adopted son. My mother attributed my good fortune to the fact "her angels were looking after me." Perhaps.</p>
