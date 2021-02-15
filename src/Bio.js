@@ -6,18 +6,28 @@ export default function Bio() {
   return (
     <Card style={{ width: '60rem', height: 'auto' }} border="info" >
       <Card.Body>
-        <Card.Title><a href='https://soundcloud.com/the-standing-waves' target="_blank" rel="noreferrer">MUSIC LINKS</a></Card.Title>
+        <Card.Title>MICHAEL'S EXCELLENT ART ADVENTURE</Card.Title>
         <Card.Text>
           <img className="bio-image" alt="self potrait" src={Img}></img>
-          <p>My first art gig came during a hot stay in Puerto Vallarta, Mexico in the 1970's. The owners of a resturant that I frequented  offered me free beverages as long as I would sit on their patio and draw. At the time I was experimenting with a rapidograh ink pen to sachieve fine detail in my drawings. The owners believed that having a young "art student" on the premises was good for business. I never saw much traffic in the place but they had great coffee and fresh juices. Later the couple began feeding me breakfast and lunches. The commercial facade ended and I became the couple's adopted son. My mother attributed my good fortune to the fact "her angels were looking after me." Perhaps.</p>
-          <p>I sketched on-and-off for years, but a marketing careeer in the technology business effectively choked off any significant artistic efforts for 20 years. Then in 2005 I started working with children after school ay my wife's day care doing digital music (click here) and animation at my wife's day care. This launched a career change from business to education.</p>
-          <p>The first job offered to me was as a K-8 art teacher--even though I lacked the credentials. I taught art for several years and my passion continued to grow. I took art lessons at Gage Academy of Art, a bastion of realist expression and classical art instruction in order to stay ahead of my middle school students. My own work blossomed. </p>
-          <p>When I switched to aqua oil medium in 2011 the "Life Card Series" was born. These paintings feature a naive style, caricatured friend and acquaintances, high chroma color, and often water images.</p>
-          <p>The artwork archived here spans the years 2005 to 2020. Media employed includes ink pen, pencil, graphite, charcoal, ink brush, platemaking, aqua oil, watercolor, and classic oil. Most of my art is representational. Of late I have been emulating the styles of the great realist .masters.</p>
-          <p>Overlapping my efforts in visual art was a five year period 2002-2007 of musical composition and recording. Many of the musical pieces--and the most interesting--were done with kids. Our musical collective was called "The Standing Waves". You here some of this music <a href='https://soundcloud.com/the-standing-waves' target="_blank" rel="noreferrer">here</a></p>
-          <p>Many thanks to Jesse Callahan who built this web site; Tamie Callahan who provided unflinching support for my "crazy" painting; Grandmother Peggy and my Aunt Molly who created wonderful paintings and sculpture far into their golden years; Room Nine Community School/Cascade K-8 where I was given every chance to learn and inspire; the Gage Academy master artists that bolstered my technique; Toby Callahan an artist in his own right who always had a nice word to say; Aime Palmer my partner in crime in my art classes and also a great painter; Gerardo Ruiz who provide guidance and a studio to work in during stays at San Miguel de Allende, Mx.; and the students and parents that were enthusiastic cheerleaders for my artisitic endeavors and teaching techniques.</p>
+          <p class="font-weight-bold">Visual Arts - </p>
+          <p>My first art gig came during a hot stay in Puerto Vallarta, Mexico in the 1970's. The owners of a resturant that I frequented  offered me free beverages as long as I would sit on their patio and draw. At the time I was experimenting with a rapidograh ink pen to achieve fine detail in my drawings.The owners believed that having a young "art student" on the premises was good for business.</p>
+          <p>I never saw much tourist traffic in the place, but they had great coffee and fresh juices. Later the couple began feeding me lunches.The commercial facade ended and I became the couple's adopted son for awhile. My mother attributed my good fortune to the fact "her angels were looking after me." Perhaps.</p>
+          <p>I sketched on-and-off for years, but a renewed interest in playing music and a demanding career in technology marketing limited  time spent creating visual art.</p>
+          <p>Then, 2002 I started working with 8, 9, and 10 year old kids at the day care run by my wife Tamie. We had a blast creating digital music and cell animation together after school. This launched a major career change for me from business to education. </p>
+          <p>The first job offered to me after graduation was as a K-8 art teacher, though I lacked the art credentials. I quickly enrolled in lessons at the Gage Academy of Art, a bastion of realism and classical art instruction. My motivation  was simply to stay more than a week or two to ahead of the middle school students!!</p>
+          <p>As it turns out children don't mind adults learning along with them in a supported environment. And, we explored every art medium we could lay our hands on! The art program became recognized throughout the district. The kid's parents even nominated me for a "Heroes in the Classroom" award sponsored by the Seahawks. That's the power of art!</p>
+          <p>My personal art was also progressing. In 2011, I switched to the aqua oil medium to create my "Life Card Series". These are scenes and people of my past. The paintings feature a naive style, high chroma color, caricatures, and nature imagery.</p>
+          <p>More recently my art has taken a realist bent: "Self Portrait", "Hailey", "Zorn", and "Still Life" are examples.</p>
+          <p class="font-weight-bold">The Music -</p>
+          <p>During the period 2002-2007, I focused heavily on digital music composition and recording. I had been playing acoustic guitar for years but now turned to synthesizers, piano, and electric guitar.</p>
+          <p>Much of the music from this period---and the most interesting---was done with children. The musical collective became known as "The Standing Waves".</p>
+          <p>You can hear a sample  of the The Standing Waves sessions by clicking HERE.</p>
+          <p>My son, Jesse Callahan, was also a musical collaborator with me and he later joined the Dropping Gems record label. Jesse also built this web archival site. MANY THANKS!</p>
+          <p>The artist formerly known as MC
+          Seattle, WA
+February 2021</p>
         </Card.Text>
       </Card.Body>
-    </Card>
+    </Card >
   )
 }

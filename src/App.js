@@ -78,18 +78,21 @@ class App extends Component {
     console.log(this.state.photos)
     let currentlyVisibleState = null;
     let buttonText = null;
+    let buttonText2 = null;
     if (this.state.photos) {
       if (this.state.visible === false) {
         currentlyVisibleState = <ArtWall photos={this.state.photos} />
         buttonText = <Button size="lg" style={{ float: 'right', marginTop: "5px", marginBottom: "5px" }} variant="outline-info" onClick={this.handleClick}>MICHAEL CALLAHAN'S ART WORKS</Button>;
       } else {
         currentlyVisibleState = <div className="vertical-center"><Bio /></div>
+        buttonText2 = <Button href="https://soundcloud.com/the-standing-waves" target="_blank" rel="noreferrer" size="lg" style={{ float: 'left', marginLeft: "100px", marginTop: "5px", marginBottom: "5px" }} variant="outline-info" >MUSIC LINKS</Button>
         buttonText = <Button size="lg" style={{ float: 'right', marginRight: "100px", marginTop: "5px", marginBottom: "5px" }} variant="outline-info" onClick={this.handleClick}>BACK TO GALLERY</Button>
       }
       return (
         <div >
           {currentlyVisibleState}
           <Container>
+            {buttonText2}
             {buttonText}
           </Container>
         </div >
