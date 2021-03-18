@@ -21,7 +21,7 @@ export default function Bio() {
           <p class="font-weight-bold">The Music -</p>
           <p>During the period 2002-2007, I focused heavily on digital music composition and recording. I had been playing acoustic guitar for years but now turned to synthesizers, piano, and electric guitar.</p>
           <p>Much of the music from this period---and the most interesting---was done with children. The musical collective became known as "The Standing Waves".</p>
-          <p>You can hear a sample  of the The Standing Waves sessions by clicking HERE.</p>
+          <p>You can hear a sample  of the The Standing Waves sessions by clicking <a href="https://soundcloud.com/the-standing-waves" target="_blank">HERE</a>.</p>
           <p>My son, Jesse Callahan, was also a musical collaborator with me and he later joined the Dropping Gems record label. Jesse also built this web archival site. MANY THANKS!</p>
           <p>The artist formerly known as MC
           Seattle, WA
